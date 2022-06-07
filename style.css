@@ -51,20 +51,20 @@ body {
 
 .card__text h1 {
   font-family: var(--headerFont);
-  color: var(--headColor);
+  font-size: 1.7rem;
   font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--headColor);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  text-transform: uppercase;
-  font-size: 1.7rem;
-  letter-spacing: 2px;
 }
 
 .card__text p {
   font-family: var(--paragraphFont);
-  color: var(--paragraphColor);
   font-weight: 400;
   line-height: 1.4;
+  color: var(--paragraphColor);
   padding-bottom: 3rem;
 }
 
@@ -82,13 +82,12 @@ body {
 
 .main__button {
   font-weight: 400;
-  border: none;
   background: none;
   background-color: var(--headColor);
   border: 1px solid var(--headColor);
   border-radius: 50px;
-  padding: 10px;
   width: 60%;
+  padding: 10px;
 }
 
 .sedan__background .main__button {
